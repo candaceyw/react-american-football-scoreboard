@@ -2,6 +2,7 @@
 import React, { useState,  useEffect } from "react";
 import "./App.css";
 import BottomRow from "./BottomRow";
+import Logo from "./images/i.png";
 
 
 
@@ -16,6 +17,9 @@ function App() {
   return (
     <div className="container">
       <section className="scoreboard">
+        <div className="logo">
+          <img src={Logo}></img> 
+        </div>
         <div className="topRow">
           <div className="home">
             <h2 className="home__name">Vols</h2>
